@@ -44,8 +44,8 @@ namespace Gameplay
             void resetSticksColor();
             void resetVariables();
 
-            
-            
+            void merge(int left, int mid, int right);
+            void mergeSort(int left, int right);
 
             void processSortThreadState();
 
