@@ -46,6 +46,8 @@ namespace Gameplay
 
             void merge(int left, int mid, int right);
             void mergeSort(int left, int right);
+            int partition(int left, int right);
+            void quickSort(int left, int right);
 
             void processSortThreadState();
 
@@ -53,6 +55,7 @@ namespace Gameplay
             void processInsertionSort();
             void processSelectionSort();
             void processMergeSort();
+            void processQuickSort();
 
             void inPlaceMerge(int left, int mid, int right);
 
